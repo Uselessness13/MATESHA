@@ -20,7 +20,7 @@ class Node:
             a.castleMove()
             tempX += 1
         while tempY < 8:
-            b = Node(self, [self.figureCoord.x, tempY], [self.figureCoord.x, tempY + 1])
+            b = Node(self, [  self.figureCoord.x, tempY], [self.figureCoord.x, tempY + 1])
             b.castleMove()
             tempY += 1
 
